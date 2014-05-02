@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple chat</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="jquery.upload-1.0.2.min.js"></script>
+        <script type="text/javascript" src="mychat-jquery.js" charset="utf-8"></script>
+        
+    </head>
+    <body>
+        
+        
+        名前<input type="text" id="nick" value=""><br>
+        内容<input type="text" id="words" value="" size="50"><br>
+        画像<span id="abc"><input type="file" name="upfile" id="file" accept="image/jpeg,image/png,image/gif"></span>
+        
+        <input type="reset" value="reset" id="reset">
+        
+        <br>
+ 
+        <button id="submit">発言</button><br>
+        
+        <button id="clear">更新の停止</button>
+        <button id="start">更新の再開</button><br>
+        <div id="contents"></div>
+    </body>
+</html>
